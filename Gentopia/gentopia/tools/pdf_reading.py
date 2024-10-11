@@ -13,6 +13,8 @@ class PdfTextExtracter(BaseTool):
     name = "pdf_text_extract"
     description = ("A tool to retrieve the pdf from the given URL and extract text from it.")
 
+    args_schema: Optional[Type[BaseModel]] = PdfTextExtracterArgs
+
 
     def _run(self, url: AnyStr) -> str:
         try: 
