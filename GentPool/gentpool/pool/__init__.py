@@ -11,3 +11,4 @@ from .vanilla-ziyu import *
 from .scholar-ziyu import *
 from .assign_2 import *
 from .assign_2_scholar import *
+from .extra_credit import *
